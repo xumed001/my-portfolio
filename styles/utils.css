@@ -52,7 +52,7 @@
 }
 
 .section {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 /* xs */
@@ -80,10 +80,6 @@
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
-  }
-
-  .section {
-    margin-top: 10rem;
   }
 }
 

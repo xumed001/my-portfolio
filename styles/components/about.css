@@ -1,0 +1,166 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* border: 1px solid red; */
+}
+
+.about__title {
+  font-size: var(--size-2xl);
+  color: var(--color-shade400);
+  font-weight: 500;
+}
+
+.about__description {
+  max-width: 60ch;
+  font-size: var(--size-sm);
+  color: var(--color-shade600);
+}
+
+.about__hr {
+  border-color: var(--color-shade800);
+}
+
+.about__subtitle {
+  font-size: var(--size-sm);
+  color: var(--color-shade400);
+  font-weight: 500;
+}
+
+.about__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  list-style-type: '\272B';
+  padding-left: 1em;
+  flex: 1;
+}
+
+.about__list {
+  font-size: var(--size-sm);
+  color: var(--color-shade600);
+}
+
+.about__list::before {
+  content: '';
+  margin-left: 0.5em;
+}
+
+.about__ul-container {
+  display: flex;
+}
+
+.about__img-wrapper {
+  margin: 0 auto;
+}
+
+.about__img {
+  display: none;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .about {
+    gap: 1.5rem;
+  }
+
+  .about__content {
+    gap: 1.5rem;
+    /* border: 1px solid red; */
+  }
+
+  .about__title {
+    font-size: var(--size-2xl);
+  }
+
+  .about__description {
+    /* max-width: 60ch; */
+    font-size: var(--size-base);
+    color: var(--color-shade600);
+  }
+
+  .about__subtitle {
+    font-size: var(--size-base);
+    color: var(--color-shade400);
+  }
+
+  .about__list {
+    font-size: var(--size-base);
+  }
+
+  .about__ul-container {
+    display: flex;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+  .about {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about__img {
+    display: block;
+    width: 28rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1rem;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .about__title {
+    font-size: var(--size-3xl);
+  }
+
+  .about__description {
+    font-size: var(--size-lg);
+  }
+
+  .about__subtitle {
+    font-size: var(--size-lg);
+  }
+
+  .about__list {
+    font-size: var(--size-lg);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .about__content {
+    gap: 2rem;
+  }
+
+  .about__title {
+    font-size: var(--size-3xl);
+  }
+
+  .about__description {
+    font-size: var(--size-xl);
+  }
+
+  .about__subtitle {
+    font-size: var(--size-xl);
+  }
+
+  .about__list {
+    font-size: var(--size-xl);
+  }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+  } */

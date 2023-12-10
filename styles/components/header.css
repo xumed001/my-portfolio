@@ -4,10 +4,24 @@
   align-items: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  /* border: 1px solid red; */
+  position: sticky;
+  top: 0;
 }
 
 .header__menu {
   display: none;
+}
+
+.header__name {
+  font-size: var(--size-xs);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  color: var(--color-shade400);
+  margin-right: auto;
+  user-select: none;
+  letter-spacing: 0.01rem;
 }
 
 .header__bars {
@@ -15,6 +29,10 @@
   width: var(--size-2xl);
   height: var(--size-2xl);
   display: block;
+}
+
+.header__sun:hover {
+  color: var(--color-alt1);
 }
 
 /* xs */
@@ -67,8 +85,13 @@
 
 /* lg */
 @media (min-width: 1024px) {
+  .header__name {
+    margin-right: auto;
+    font-size: var(--size-base);
+  }
+
   .header__link {
-    font-size: var(--size-sm);
+    font-size: var(--size-base);
   }
 
   .header__sun {

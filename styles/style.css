@@ -35,6 +35,14 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: calc(100vh - 6rem);
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  scroll-margin-top: 6rem;
 }
 
 body {
