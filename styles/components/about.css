@@ -14,7 +14,7 @@
 }
 
 .about__title {
-  font-size: var(--size-2xl);
+  font-size: var(--size-1xl);
   color: var(--color-shade400);
   font-weight: 600;
 }
@@ -115,7 +115,7 @@
 
   .about__img {
     display: inline-block;
-    width: 20rem;
+    width: 21rem;
     object-fit: cover;
     object-position: center;
     border-radius: 1rem;

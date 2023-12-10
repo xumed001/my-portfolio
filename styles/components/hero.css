@@ -5,10 +5,9 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  /* margin-top: 2rem;
-  padding-top: 3rem; */
   height: calc(100vh - 6rem);
   height: calc(100svh - 6rem);
+  padding-bottom: 4rem;
 }
 
 .hero__buttons {

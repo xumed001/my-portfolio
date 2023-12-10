@@ -56,10 +56,10 @@
   .header__link {
     font-size: var(--size-xs);
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--color-shade600);
     letter-spacing: -0.05em;
-    transition: color 0.3s;
+    transition: color 0.6s;
   }
 
   .header__link:hover {
@@ -76,6 +76,7 @@
     color: var(--color-shade600);
     width: var(--size-base);
     height: var(--size-base);
+    transition: color 0.6s;
   }
 
   .header__bars {
